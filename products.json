@@ -1,0 +1,22 @@
+[
+    {
+    "name" : "dell gaming",
+    "price" : "30000",
+    "company" : "apple"
+},
+    {
+    "name" : "mi 20",
+    "price" : "40000",
+    "company" : "apple"
+},
+    {
+    "name" : "sameer's Fragnances",
+    "price" : "4000",
+    "company" : "samsung"
+},
+    {
+    "name" : "dell gaming",
+    "price" : "30000",
+    "company" : "huawei"
+}
+]

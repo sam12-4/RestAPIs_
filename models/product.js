@@ -7,11 +7,12 @@ const productSchema =  new mongoose.Schema({
     rating : {type:  Number, default : 1.0},
     createdAt : {type: Date, default:Date.now()},
     company : {
+        type : String ,
         enum : {
-            value: ["apple", "samsung","huawei"],
+            values: ["apple", "samsung","huawei"],
             message: "{VALUE} is not supported"
         }
     }
 })
 
-module.exports = mongoose.Model('Product',productSchema) ;
+module.exports = mongoose.model('Product',productSchema) ;
