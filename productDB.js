@@ -6,6 +6,7 @@ const ProductJson = require("./products.json")
 connectToDB(process.env.MONGODB_URL)
     .then(() => {
         try {
+            Product.deleteMany() // Deletes all documents in daatabase
             Product.create(ProductJson)
             console.log("connected");
             
